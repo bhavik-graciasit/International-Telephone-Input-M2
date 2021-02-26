@@ -1,0 +1,29 @@
+{
+  "name": "graciasit/international-telephone-input",
+  "description": "International Telephone Input module for Magento 2 ",
+  "require": {
+    "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "license": "OSL-3.0",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Graciasit\\InternationalTelephoneInput\\": ""
+    }
+  },
+  "authors": [
+    {
+      "name": "Graciasit Core Team",
+      "email": "info@graciasit.com"
+    },
+    {
+      "name": "Bhavik",
+      "email": "bhavik.p@graciasit.com"
+    }
+  ],
+  "support": {
+    "email": "support@graciasit.com"
+  }
+}

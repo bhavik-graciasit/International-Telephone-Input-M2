@@ -1,0 +1,12 @@
+<?php
+/**
+ * @var $block  Graciasit\InternationalTelephoneInput\Block\PhoneNumber
+ */
+?>
+<script type="text/x-magento-init">
+    {
+        "input[name='telephone']": {
+            "Graciasit_InternationalTelephoneInput/js/internationalTelephoneInput": <?php echo $block->phoneConfig(); ?>
+        }
+    }
+</script>
